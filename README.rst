@@ -117,14 +117,19 @@ Clone this repository to your machine:
 
 When you have this repository cloned go the project directory and run
 
-#. ``make build_dev`` (``make build`` for more compact but slower builds)
-#. ``make run_genesis`` or ``make run`` if you are working on an existing chain.
+#. ``make build_dev``.
+#. ``DEV=1 make run_genesis`` or ``DEV=1 make run`` if you are working on an
+   existing chain.
 
-**NOTE:** on further runs you might want to run ``make run`` to persist the
-transaction created before. If you want to start with a clean chain, use ``make
-run_genesis`` again.
+**NOTE:** on further runs you might want to run ``DEV=1 make run`` to persist
+the transaction created before. If you want to start with a clean chain, use
+``DEV=1 make run_genesis`` again.
 
-You can run ``make test`` to run automated tests.
+You can run ``make test`` to run automated tests. Note that you can also run
+``make enter_testing_console`` that will lead you to a console of a running
+container with REMME code connected to it. Inside this container you should use
+``make build_protobuf`` to build Protocol Buffers classes and then ``pytest`` to
+run the actual tests.
 
 Building documentation
 ----------------------
