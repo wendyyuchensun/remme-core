@@ -1,8 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project
+adheres to [Semantic Versioning](https://semver.org).
 
 ## [0.7.0-alpha] - 2018-12-27
 ### Added
