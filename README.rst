@@ -6,7 +6,6 @@ REMME Core
 REMME is a blockchain-based protocol used for issuing and management of X.509
 client certificates to resolve issues related to cybersecurity, IoT
 connectivity, data integrity, digital copyright protection, transparency etc. 
-[![Build Status](https://jenkins.remme.io/buildStatus/icon?job=remme-core/dev)](https://jenkins.remme.io/job/remme-core/dev)
 
 REMME Core is built on Hyperledger Sawtooth platform, allowing to be flexible in
 language choice during the development process. REMME Core supports JS, .NET,
