@@ -2,7 +2,7 @@ REMME Core
 ==========
 
 |CircleCI| |Docker Stars| |Gitter| |Jenkins|
-
+[![Build Status](https://jenkins.remme.io/job/remme-core/update-status-build/badge/icon)](https://jenkins.remme.io/job/remme-core/update-status-build)
 REMME is a blockchain-based protocol used for issuing and management of X.509
 client certificates to resolve issues related to cybersecurity, IoT
 connectivity, data integrity, digital copyright protection, transparency etc. 
