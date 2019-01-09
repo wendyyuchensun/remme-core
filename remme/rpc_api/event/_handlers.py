@@ -151,11 +151,14 @@ class BlockEventHandler(BaseEventHandler):
         }
 
     def parse_evt(self, evt):
+        LOGGER.info(f'evt is {evt}')
         parsed_attributes = {}
 
         for attribute in evt.get('attributes'):
-            if attribute.get('key') is not None:
-                parsed_attributes[attribute.get('key')] = attribute.get('value')
+            attribute_key = attribute.get('key')
+
+            if attribute_key is not None:
+                parsed_attributes[attribute_key] = attribute.get('value')
 
         return parsed_attributes
 

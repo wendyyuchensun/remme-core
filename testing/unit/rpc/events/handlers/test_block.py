@@ -21,12 +21,10 @@ async def test_prepare_response(mocker):
     Expect: timestamp along with block identifier is returned.
     """
     block_info = BlockInfo()
-    block_info.block_num = 5
     block_info.timestamp = 1546962851
-    serialized_block_info = block_info.SerializeToString()
 
-    mock_get_block_value = mocker.patch('remme.clients.basic.BasicClient.get_value')
-    mock_get_block_value.return_value = return_async_value(serialized_block_info)
+    mock_get_block_info = mocker.patch('remme.clients.block_info.BlockInfoClient.get_block_info')
+    mock_get_block_info.return_value = return_async_value(block_info)
 
     expected_result = {
         'id': BLOCK_ID,
