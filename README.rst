@@ -1,7 +1,7 @@
 REMME Core
 ==========
 
-|CircleCI| |Docker Stars| |Gitter|
+|CircleCI| |Docker Stars| |Gitter| |Jenkins|
 
 REMME is a blockchain-based protocol used for issuing and management of X.509
 client certificates to resolve issues related to cybersecurity, IoT
@@ -149,3 +149,4 @@ REMME software and documentation are licensed under `Apache License Version 2.0
    :target: https://www.npmjs.com/package/remme
 .. |nuget| image:: https://img.shields.io/nuget/v/REMME.Auth.Client.svg
    :target: https://www.nuget.org/packages/REMME.Auth.Client/
+.. |Jenkins| [![Build Status](https://jenkins.remme.io/view/1.%20GitHub%20Integration/job/remme-core/job/dev/badge/icon)](https://jenkins.remme.io/view/1.%20GitHub%20Integration/job/remme-core/job/dev/)
