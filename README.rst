@@ -150,4 +150,4 @@ REMME software and documentation are licensed under `Apache License Version 2.0
 .. |nuget| image:: https://img.shields.io/nuget/v/REMME.Auth.Client.svg
    :target: https://www.nuget.org/packages/REMME.Auth.Client/
 .. |Jenkins| image:: 
-   :target: 
+   :target:
