@@ -149,5 +149,5 @@ REMME software and documentation are licensed under `Apache License Version 2.0
    :target: https://www.npmjs.com/package/remme
 .. |nuget| image:: https://img.shields.io/nuget/v/REMME.Auth.Client.svg
    :target: https://www.nuget.org/packages/REMME.Auth.Client/
-.. |Jenkins| image:: https://jenkins.remme.io/view/1.%20GitHub%20Integration/job/remme-core/job/update-status-build/badge/icon
-   :target: https://jenkins.remme.io/view/1.%20GitHub%20Integration/job/remme-core/job/update-status-build/
+.. |Jenkins| image:: 
+   :target: 
